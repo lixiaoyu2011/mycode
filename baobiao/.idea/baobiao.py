@@ -123,3 +123,21 @@ head4 = ["日期","总播放时长对照组","总播放时长实验组"]
 df4 = pd.concat([data[u'日期'],data[u'总播放时长对照组'] , data[u'总播放时长实验组']],axis=1)
 print(df4)
 df4.to_csv("../out/out4.csv", index=False)
+
+###############################文件合并############################################
+import numpy as np
+import os
+csvs = []
+for file in os.listdir("../out"):
+        csvs.append(file)
+print(csvs)
+#得到文件列表
+fout=open("../data/combined_iso.csv","a")
+
+for file in csvs:
+    f = open("../out/"+file)
+    print(f)
+    for line in f:
+         fout.write(line)
+    f.close() # 关闭文件
+fout.close()

@@ -14,8 +14,9 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/baobiao$3_2_statistics_analyze.coverage" NAME="3-2_statistics_analyze Coverage Results" MODIFIED="1524551125224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/图书配套数据、代码/chapter3/demo/code" />
-    <SUITE FILE_PATH="coverage/baobiao$baobiao.coverage" NAME="baobiao Coverage Results" MODIFIED="1524573141089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.idea" />
+    <SUITE FILE_PATH="coverage/baobiao$baobiao.coverage" NAME="baobiao Coverage Results" MODIFIED="1524574505678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.idea" />
     <SUITE FILE_PATH="coverage/baobiao$3_1_abnormal_check.coverage" NAME="3-1_abnormal_check Coverage Results" MODIFIED="1524550795589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/图书配套数据、代码/chapter3/demo/code" />
+    <SUITE FILE_PATH="coverage/baobiao$baobiaohebing.coverage" NAME="baobiaohebing Coverage Results" MODIFIED="1524574464323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.idea" />
     <SUITE FILE_PATH="coverage/baobiao$5_7_arima_test.coverage" NAME="5-7_arima_test Coverage Results" MODIFIED="1524565869971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/图书配套数据、代码/chapter5/demo/code" />
     <SUITE FILE_PATH="coverage/baobiao$baobiao2.coverage" NAME="baobiao2 Coverage Results" MODIFIED="1524570719327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.idea" />
     <SUITE FILE_PATH="coverage/baobiao$8_1_discretization.coverage" NAME="8-1_discretization Coverage Results" MODIFIED="1524551639652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/图书配套数据、代码/chapter8/demo/code" />
@@ -29,11 +30,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="baobiao.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="baobiao.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.idea/baobiao.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="122" column="61" selection-start-line="122" selection-start-column="61" selection-end-line="122" selection-end-column="61" />
+            <state relative-caret-position="162">
+              <caret line="133" column="7" selection-start-line="133" selection-start-column="7" selection-end-line="133" selection-end-column="7" />
               <folding>
                 <element signature="e#23#42#0" expanded="true" />
               </folding>
@@ -41,12 +42,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="baobiaohebing.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="baobiaohebing.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/baobiaohebing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="44">
+              <caret line="4" column="8" selection-start-line="2" selection-start-column="0" selection-end-line="17" selection-end-column="12" />
+              <folding>
+                <element signature="e#23#42#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -65,8 +68,8 @@
       <list>
         <option value="$USER_HOME$/Desktop/图书配套数据、代码/chapter3/demo/code/3-2_statistics_analyze.py" />
         <option value="$PROJECT_DIR$/.idea/baobiao2.py" />
-        <option value="$PROJECT_DIR$/.idea/baobiao.py" />
         <option value="$PROJECT_DIR$/.idea/baobiaohebing.py" />
+        <option value="$PROJECT_DIR$/.idea/baobiao.py" />
       </list>
     </option>
   </component>
@@ -77,8 +80,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="644" />
-    <option name="y" value="157" />
+    <option name="x" value="550" />
+    <option name="y" value="158" />
     <option name="width" value="1226" />
     <option name="height" value="908" />
   </component>
@@ -133,24 +136,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="3-2_statistics_analyze" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Desktop/图书配套数据、代码/chapter3/demo/code" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="baobiao" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/图书配套数据、代码/chapter3/demo/code/3-2_statistics_analyze.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
     <configuration default="false" name="8-1_discretization" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -201,6 +186,24 @@
       <module name="baobiao" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/图书配套数据、代码/chapter5/demo/code/5-7_arima_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="baobiaohebing" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.idea" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="baobiao" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/.idea/baobiaohebing.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -415,18 +418,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.baobiao" />
-      <item index="1" class="java.lang.String" itemvalue="Python.3-2_statistics_analyze" />
-      <item index="2" class="java.lang.String" itemvalue="Python.8-1_discretization" />
-      <item index="3" class="java.lang.String" itemvalue="Python.baobiao2" />
-      <item index="4" class="java.lang.String" itemvalue="Python.5-7_arima_test" />
+      <item index="1" class="java.lang.String" itemvalue="Python.8-1_discretization" />
+      <item index="2" class="java.lang.String" itemvalue="Python.baobiao2" />
+      <item index="3" class="java.lang.String" itemvalue="Python.5-7_arima_test" />
+      <item index="4" class="java.lang.String" itemvalue="Python.baobiaohebing" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.baobiao" />
-        <item index="1" class="java.lang.String" itemvalue="Python.baobiao2" />
-        <item index="2" class="java.lang.String" itemvalue="Python.5-7_arima_test" />
-        <item index="3" class="java.lang.String" itemvalue="Python.8-1_discretization" />
-        <item index="4" class="java.lang.String" itemvalue="Python.3-2_statistics_analyze" />
+        <item index="1" class="java.lang.String" itemvalue="Python.baobiaohebing" />
+        <item index="2" class="java.lang.String" itemvalue="Python.baobiao2" />
+        <item index="3" class="java.lang.String" itemvalue="Python.5-7_arima_test" />
+        <item index="4" class="java.lang.String" itemvalue="Python.8-1_discretization" />
       </list>
     </recent_temporary>
   </component>
@@ -447,7 +450,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="644" y="157" width="1226" height="908" extended-state="1" />
+    <frame x="550" y="158" width="1226" height="908" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -888,31 +891,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/baobiao.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="122" column="61" selection-start-line="122" selection-start-column="61" selection-end-line="122" selection-end-column="61" />
-          <folding>
-            <element signature="e#23#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/baobiao2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="6" column="14" selection-start-line="4" selection-start-column="0" selection-end-line="8" selection-end-column="46" />
           <folding>
-            <element signature="e#23#42#0" expanded="true" />
+            <element signature="e#23#42#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/baobiaohebing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="44">
+          <caret line="4" column="8" selection-start-line="2" selection-start-column="0" selection-end-line="17" selection-end-column="12" />
+          <folding>
+            <element signature="e#23#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/baobiao.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="133" column="7" selection-start-line="133" selection-start-column="7" selection-end-line="133" selection-end-column="7" />
+          <folding>
+            <element signature="e#23#42#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
