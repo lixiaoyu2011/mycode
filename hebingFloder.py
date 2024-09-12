@@ -28,6 +28,23 @@ def delete_empty_folders(path):
             print(f"Deleted empty folder: {folder_name}")
 
 
+import os
+import shutil
+
+def create_everyone_folders(source_dir):
+    # 遍历源目录下的所有文件
+    for filename in os.listdir(source_dir):
+        # 获取文件的绝对路径
+        file_path = os.path.join(source_dir, filename)
+
+        # 如果是文件，而不是目录
+        if os.path.isfile(file_path):
+            # 创建一个新目录，与文件同名
+            new_dir = os.path.join(source_dir, filename.rsplit('.', 1)[0])
+            os.makedirs(new_dir, exist_ok=True)
+
+            # 移动文件到新目录
+            shutil.move(file_path, new_dir)
 # # 使用示例
 # path_to_check = 'ceshihebing'
 # delete_empty_folders(path_to_check)
@@ -62,8 +79,12 @@ class MP4folder:
         self.log_folder_label.pack()
 
         # 执行操作按钮
-        action_button5 = tk.Button(self.window, text="合并文件夹内文件到二级目录", command=self.display_folder)
-        action_button5.pack(padx=10, pady=10)
+        action_button1 = tk.Button(self.window, text="合并文件夹内文件到二级目录", command=self.display_folder)
+        action_button1.pack(padx=10, pady=10)
+
+        # 执行操作按钮
+        action_button2 = tk.Button(self.window, text="为每一个文件创建单独的文件夹", command=self.everyone_folder)
+        action_button2.pack(padx=10, pady=10)
 
         label = tk.Label(self.window, text="请选择要操作的文件夹")
         label.pack()
@@ -83,6 +104,11 @@ class MP4folder:
         # 这里可以添加你的操作代码
         print(f"folder_selected {self.folder_selected}")
         delete_empty_folders(self.folder_selected)
+
+    def everyone_folder(self):
+        # 这里可以添加你的操作代码
+        print(f"everyone_folder {self.folder_selected}")
+        create_everyone_folders(self.folder_selected)
 
 
 # 运行计算器
